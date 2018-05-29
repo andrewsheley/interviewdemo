@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  interviewdemo.api:
+    image: ${DOCKER_REGISTRY}interviewdemoapi
+    build:
+      context: .
+      dockerfile: InterviewDemo.API/Dockerfile

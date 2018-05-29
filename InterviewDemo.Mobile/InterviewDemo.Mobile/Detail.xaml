@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InterviewDemo.Mobile.Detail"
+             Title="{Binding FullName}">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+
+                <Label Text="Last Name" FontAttributes="Bold"/>
+                <Entry Text="{Binding LastName}"/>
+
+                <Label Text="First Name" FontAttributes="Bold" />
+                <Entry Text="{Binding FirstName}" />
+
+                <Label Text="Address" FontAttributes="Bold" />
+                <Entry Text="{Binding StreetAddress1}" />
+
+                <Label Text="City" FontAttributes="Bold"/>
+                <Entry Text="{Binding City}"/>
+
+                <Label Text="State" FontAttributes="Bold"/>
+                <Entry Text="{Binding State}" />
+
+                <Label Text="Zip" FontAttributes="Bold"/>
+                <Entry Text="{Binding Zip}" />
+
+                <Label Text="Phone Number" FontAttributes="Bold"/>
+                <Entry Text="{Binding PhoneNumber}"/>
+
+
+                <Button Text="SAVE" FontAttributes="Bold"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
