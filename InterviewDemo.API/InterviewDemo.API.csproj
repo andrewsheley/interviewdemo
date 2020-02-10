@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <UserSecretsId>064ff79c-f19f-4941-9dc3-b896bbfc55d5</UserSecretsId>
     <ApplicationInsightsResourceId>/subscriptions/cd756a27-f5a0-4ef3-a80d-7e282d2a9927/resourcegroups/InterviewDemo/providers/microsoft.insights/components/APIInsights</ApplicationInsightsResourceId>
     <ApplicationInsightsAnnotationResourceId>/subscriptions/cd756a27-f5a0-4ef3-a80d-7e282d2a9927/resourcegroups/InterviewDemo/providers/microsoft.insights/components/APIInsights</ApplicationInsightsAnnotationResourceId>
@@ -13,9 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.3.0" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.12.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.8" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="2.2.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="2.8.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="2.4.0" />
   </ItemGroup>
